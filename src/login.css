@@ -1,0 +1,129 @@
+ /* login.css */
+
+/* Page Style */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+}
+.text {
+  font-family: 'Roboto', sans-serif; /* Set the desired font */
+  font-size: 16px; /* Set the desired font size */
+  line-height: 1.6; /* Set the desired line height */
+  /* Add any other styles you want for the text */
+  color: #c92e0c; /* Changed color to orange */
+  max-width: 75%; /* Display text at 75% of the page width */
+  margin: 10px;
+}
+
+  .text1 {
+    font-size: 16px; /* Set the desired font size */
+    line-height: 1.6; /* Set the desired line height */
+    /* Add any other styles you want for the text */
+    color: #03056b; /* Changed color to turquoise */
+    max-width: 75%; /* Display text at 75% of the page width */
+    margin: 10px;
+  }
+
+
+.full-height {
+  width: 100%;
+  height: 100%;
+}
+
+
+:focus {
+  outline: none;
+}
+
+/* Login Page */
+.loginheader {
+  background:#058a7f;;
+  height: 50px; /* Increased height */
+  color: #f5f3f4;
+  line-height: 50px; /* Center vertically */
+  font-weight: bold;
+  font-size: 16pt; /* Increased font size */
+}
+
+.logincontent {
+
+  height: calc(100% - 60px);
+  position: relative;
+}
+
+.loginfooter {
+  background: #058a7f;
+  height: 30px;
+  color: rgb(24, 1, 1);
+  line-height: 30px;
+  font-size: 7pt;
+  text-align: center;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  background: #cecf6875;
+  display: none;
+}
+
+.popupwindow {
+  width: 300px; /* Adjust width as needed */
+  height: 450px; /* Adjust height as needed */
+  padding: 10px;
+  background: rgb(112, 163, 183); /* Light Green */
+  border-radius: 10px; /* Rounded box */
+  position: absolute;
+  top: 20px; /* Adjust distance from top */
+  right: 20px; /* Adjust distance from right */
+}
+
+.loginstyle1 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12pt;
+  color: #0f160a;
+  background: #118dcb85;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.loginstyle2 {
+  position: relative;
+  color:rgb(26, 21, 21);
+  background:#37827caf;
+  height: 400px;
+  padding: 10px;
+}
+
+.txtbox {
+  width: 95%; /* Adjust width as needed */
+  height: 30px;
+  font-size: 10pt;
+  border: 1px solid hsl(185, 69%, 34%);
+  border-radius: 5px; /* Rounded box */
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100%;
+  height: 35px;
+  background: rgb(2, 155, 220);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(51, 159, 192);
+  border-radius: 5px; /* Rounded box */
+  cursor: pointer;
+}
+
+.linklabel {
+  color: rgb(247, 10, 10);
+  cursor: pointer;
+}
+
+

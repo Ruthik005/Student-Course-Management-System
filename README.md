@@ -1,103 +1,70 @@
-# 🚀 Course Management System (CMS) 📚
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Welcome to the CMS repository – where education meets innovation! 🌟 Our Course Management System is not just a tool; it's your ultimate sidekick in orchestrating a seamless educational experience. 🎓✨
+## Available Scripts
 
-Overview 🌐
-Dive into the future of education with CMS, a robust software solution designed for both maestros and scholars. Unleash the power of streamlined course administration, dynamic assignment tracking, and interactive communication tools. CMS is where academic excellence meets user-friendly magic! 🚀📈
+In the project directory, you can run:
 
-Key Features 🌈
+### `npm start`
 
-User Roles:
-Administrator 👑
-Faculty 🎓
-Student 📝
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Course Management:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Create, edit, and delete courses.
+### `npm test`
 
-- Assign instructors and students effortlessly.
-- Upload and organize course materials seamlessly.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Provide instructors with a sleek grading interface.
+### `npm run build`
 
-Communication Tools:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Announcements and messaging system for community vibes.
-- Discussion forums for sparking interactive discussions. 💬
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Grading System:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Customize grading scales like a boss!
-- Keep track of student performance with the coolest gradebook.
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Technologies Used 🚀**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Frontend:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-HTML5, CSS3, JavaScript
-React.js for dynamic and snazzy user interfaces
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Backend:
+## Learn More
 
-Node.js for server-side awesomeness
-Express.js for RESTful API magic
-MongoDB for handling data 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Prerequisites
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Before you begin, ensure you have the following installed on your machine:
+### Code Splitting
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- [nodemon](https://nodemon.io/) (install globally)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-** Move all these files into a folder called sample and install npm package in it **
+### Analyzing the Bundle Size
 
-## Clone the Repository
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
+### Making a Progressive Web App
 
-## Install Dependencies
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-```bash
-# Install client dependencies
-cd client
-npm install
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-# Install server dependencies
-cd ../server
-npm install
-```
+### Deployment
 
-## Start the Server
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Ensure you are in the `server` directory before starting the server.
+### `npm run build` fails to minify
 
-```bash
-cd server
-nodemon app.js
-```
-
-This will launch the Node.js server using nodemon, which automatically restarts on file changes.
-
-## Start the React App
-
-Open a new terminal window/tab, navigate to the `client` directory, and start the React app.
-
-```bash
-cd client
-npm start
-```
-
-Your React app should now be running on [http://localhost:3000](http://localhost:3000), and the Node.js server on [http://localhost:5000](http://localhost:5000).
-
-
-Feel free to reach out if you encounter any issues or have further questions. Happy coding!
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
